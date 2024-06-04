@@ -9,7 +9,7 @@
   /* primary */
 
   --light-red: hsl(0, 98%, 64%);
-  --rangey-yellow: hsl(39, 96%, 59%);
+  --orangey-yellow: hsl(39, 96%, 59%);
   --green-teal: hsl(165, 92%, 56%);
   --obalt-blue: hsl(234, 94%, 58%);
 
@@ -177,13 +177,13 @@ body {
   border-radius: 5px;
 }
 
-.verbal {
+.memory {
   display: flex;
   gap: 15px;
 }
 
-.verbal p {
-  color: var(--green-teal);
+.memory p {
+  color: var(--orangey-yellow);
   font-weight: 700;
 }
 
@@ -201,7 +201,7 @@ body {
 /* ============================ */
 
 .green {
-  background-color: hsla(39, 96%, 59%, 0.1);
+  background-color: hsla(166, 100%, 37%, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
