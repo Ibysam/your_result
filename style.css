@@ -91,11 +91,12 @@ body {
   flex-direction: column;
   justify-content: center;
   /* margin-top: 30px; */
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom,
-    hsla(256, 72%, 46%, 1),
-    hsla(241, 72%, 46%, 0)
-  );
+    /* hsla(256, 72%, 46%, 1), */
+  /* hsla(241, 72%, 46%, 0)
+  ); */
+  background: linear-gradient(red, hsla(241, 72%, 46%, 0));
 }
 
 .seven_six {
@@ -208,13 +209,13 @@ body {
   border-radius: 5px;
 }
 
-.memory {
+.verbal {
   display: flex;
   gap: 15px;
 }
 
-.memory p {
-  color: var(--rangey-yellow);
+.verbal p {
+  color: var(--green-teal);
   font-weight: 700;
 }
 
@@ -232,7 +233,7 @@ body {
 /* ============================ */
 
 .blue {
-  background-color: hsla(39, 96%, 59%, 0.1);
+  background-color: hsla(234, 85%, 45%, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
